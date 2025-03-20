@@ -1,19 +1,17 @@
 {
   "name": "chessstakes",
   "version": "1.0.0",
-  "description": "High-stakes betting chess app",
+  "description": "High stakes betting chess app",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
-    "build": "echo No build step needed",
-    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
     "express": "^4.18.2",
     "three": "^0.150.1",
     "@react-three/fiber": "^9.1.0",
     "@react-three/drei": "^9.45.0",
-    "chess.js": "^1.0.0"
+    "chess.js": "^1.1.0"
   },
   "engines": {
     "node": ">=18"
